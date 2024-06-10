@@ -1,6 +1,6 @@
 app-id: org.worldpossible.ScriptLauncher
 runtime: org.gnome.Platform
-runtime-version: '44'
+runtime-version: '46'
 sdk: org.gnome.Sdk
 command: worldpossible-scriptlauncher
 
@@ -27,6 +27,6 @@ modules:
     builddir: true
     sources:
       - type: git
-        tag: 1.0.1
-        commit: baa8c0a4856ef9ef97ccf0d891ddc479b41b3f0c
+        tag: 1.0.2
+        commit: 0eef0316d861792ddfc82044bc03ccf436c32a70
         url: https://github.com/endlessm/worldpossible-scriptlauncher
